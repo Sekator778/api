@@ -66,6 +66,16 @@
                     </excludes>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>3.3.2</version>
+                <configuration>
+                    <to>
+                        <image>registry.hub.docker.com/sekator778/java/api-jib-test</image>
+                    </to>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
